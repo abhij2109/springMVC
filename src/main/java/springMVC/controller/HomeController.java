@@ -21,6 +21,7 @@ public class HomeController {
 		friends.add("Baboochak");
 		friends.add("Dhobo");
 		friends.add("Chanpli");
+		
 		model.addAttribute("f",friends);
 		
 		return "index";
