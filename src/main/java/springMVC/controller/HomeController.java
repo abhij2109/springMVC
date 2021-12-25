@@ -25,7 +25,7 @@ public class HomeController {
 		model.addAttribute("f",friends);
 		
 		return "index";
-	}
+	}  
 	
 	@RequestMapping("/about")
 	public String about() {
