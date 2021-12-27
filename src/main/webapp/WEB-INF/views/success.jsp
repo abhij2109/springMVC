@@ -5,6 +5,8 @@
     <title>Registration Values</title>
 </head>
 <body>
+    <h1 style="color:green">${msg }</h1>
+    <hr>
     <h1>Welcome, ${user.username }.</h1>
     <h1>Your emailId is ${user.email }.</h1>
     <h1>Password is ${user.password }.</h1>
